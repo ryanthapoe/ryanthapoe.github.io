@@ -1,254 +1,185 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Shyam ❤️ Rincy - 29.10.2023</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it." />
-	<meta name="keywords" content="shyam,rincy,wedding,website,rsvp" />
-	<meta name="author" content="Shyam & Rincy" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iconic - Premium Clothing Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ICONIC" class="logo-img">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#how-to-order" class="nav-link">How to Order</a>
+                <a href="#about" class="nav-link">About Us</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:image" content="images/og.jpg"/>
-	<meta property="og:site_name" content="Shyam ❤️ Rincy - 29.10.2023">
-    <meta property="og:title" content="Shyam ❤️ Rincy - 29.10.2023">
-    <meta property="og:description" content="We are getting hitched - The dates are 21st & 29th of October '23 and we would like you to be a part of it.">
-	<!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
-    <meta property="og:image:width" content="300">
-    <meta property="og:image:height" content="300">
-    <!-- Website to visit when clicked in fb or WhatsApp-->
-    <meta property="og:url" content="https://we.shyamjos.com">
-	<meta property="og:type" content="website"/>
-    <meta property="og:image:type" content="image/jpeg">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="assets/videos/hero_videos.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Elevate Your Style</h1>
+            <p class="hero-subtitle">Discover our premium collection of contemporary fashion that defines modern elegance</p>
+            <button class="cta-button">Explore Collection</button>
+        </div>
+    </section>
 
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Featured Collection</h2>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
 
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed" rel="stylesheet">
-	
-	<!-- clock   -->
-	<link rel="stylesheet" href="css/responsive-clock.css">
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- How to Order Section -->
+    <section id="how-to-order" class="how-to-order">
+        <div class="container">
+            <h2 class="section-title">How to Order via WhatsApp</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Browse & Select</h3>
+                    <p>Explore our curated collection and click on any product to view details and gallery</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3>Choose Size</h3>
+                    <p>Select your preferred size from the size chart provided in the product modal</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Order via WhatsApp</h3>
+                    <p>Click "Order via WhatsApp" button to send your order details directly to our team</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Confirmation & Payment</h3>
+                    <p>Our team will confirm availability, provide payment details, and arrange delivery</p>
+                </div>
+            </div>
+            <div class="whatsapp-contact">
+                <p><strong>Contact us directly:</strong></p>
+                <a href="https://wa.me/6285262366023" class="whatsapp-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i> +62 852-6236-6023
+                </a>
+            </div>
+        </div>
+    </section>
 
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Iconic</h2>
+                    <p class="about-description">
+                        Founded with a passion for preserving and celebrating Indonesian cultural heritage, Iconic represents
+                        the perfect fusion of traditional artistry and contemporary design. We specialize in transforming
+                        the timeless beauty of Ulos traditional fabric into modern, wearable art that honors our ancestors
+                        while embracing the future.
+                    </p>
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+                    <div class="mission-section">
+                        <h3 class="mission-title">Our Vision & Mission</h3>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+                        <div class="mission-item">
+                            <div class="mission-icon">🌍</div>
+                            <p>Menjadi ikon global dan merek fashion etnik-modern terdepan yang mengangkat keindahan kain etnik ulos sebagai warisan budaya dunia</p>
+                        </div>
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-	
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li class="active"><a href="#fh5co-event">Events</a></li>
-						<li class="active"><a href="#fh5co-gallery">Gallery</a></li>
-						<li class="active"><a href="#fh5co-services">Highlights</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
+                        <div class="mission-item">
+                            <div class="mission-icon">🎨</div>
+                            <p>Melestarikan kembali warisan budaya dengan menghidupkan kembali keindahan kain tradisional ulos melalui inovasi desain yang kreatif, modern, inklusif, dan berkelanjutan</p>
+                        </div>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Abraham Purba &amp; Milla</h1>
-							<br>
-							<img src="images/fprint.png" alt="Shyam + Rincy"> 
-							<h2>29.10.2023</h2>
-							<h2>"I have found the one whom my soul loves." <br>Song of Solomon 3:4</h2>
-							<div class="flipTimebox">
-								<div class="clock clock-fix"></div>
-							  </div>
-							<p><a href="#fh5co-event" class="btn btn-default btn-sm">Save our date</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+                        <div class="mission-item">
+                            <div class="mission-icon">💝</div>
+                            <p>Menginspirasi orang untuk mencintai budaya melalui produk-produk yang berkualitas serta menjadikan ulos sebagai bagian dari gaya hidup masa kini</p>
+                        </div>
 
+                        <div class="mission-item">
+                            <div class="mission-icon">🤝</div>
+                            <p>Memberdayakan pengrajin kain lokal dan melestarikan budaya tenun tradisional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-gallery">
+                        <div class="gallery-main">
+                            <img src="assets/images/about/about_main.jpg" alt="About Iconic - Main" onerror="this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+                        </div>
+                        <div class="gallery-grid">
+                            <img src="assets/images/about/about_1.jpg" alt="About Iconic 1" onerror="this.src='https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                            <img src="assets/images/about/about_2.jpg" alt="About Iconic 2" onerror="this.src='https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                            <img src="assets/images/about/about_3.jpg" alt="About Iconic 3" onerror="this.src='https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'">
+                            <!-- <img src="assets/images/about/about_4.jpg" alt="About Iconic 4" onerror="this.src='https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ICONIC</h3>
+                    <p>Elevating style, defining elegance.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/Iconic_Ulos" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Iconic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-	<div id="fh5co-event" class="fh5co-bg">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Events</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Betrothal</h3>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>21 October 2023</span>
-									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>11:30 AM</span>
-									</div>
-									<p>At <b>St. Vincent De Paul Church Edathotty, Kannur.</b> Followed by lunch at <b>Robin's Wedding Cafe, Edathotty.</b></p>
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.673315773661!2d75.71257847590881!3d11.927808088299846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5cd2b69442ebf%3A0x41b4e77a403a15b4!2sDe%20Paul%20Church%2C%20Edathotty!5e0!3m2!1sen!2sin!4v1696094112600!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding</h3>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>29 October 2023</span>
-									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>12:00 PM</span>
-									</div>
-									<p>At <b>St. Antony's Church Cheriyappilly, North Paravur.</b> Followed by lunch at <b>IMA Hall, North Paravur</b></p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.690238117892!2d76.24293817588756!3d10.124421489987455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0810402ea732f5%3A0x7e23209bf83c2a9b!2sSt.Antony&#39;s%20Roman%20Catholic%20Church!5e0!3m2!1sen!2sin!4v1696094216568!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Gallery</h2>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS1.jpg); "> 
-						<a href="images/RS1.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS2.jpg); "> 
-						<a href="images/RS2.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/RS3.jpg); "> 
-						<a href="images/RS3.jpg">
-							<div class="case-studies-summary">
-							</div>
-						</a>
-					</li>
-					
-					</ul>		
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Highlights</h2>
-
-				</div>
-			</div>
-
-
-
-				<div class="container animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-    <!-- clock -->
-	<script src="js/clock.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<script src='https://momentjs.com/downloads/moment.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-	<center>View Source Code on <a href="https://github.com/shyamjos/wedding-website">GitHub <img src="images/github-logo.png"> </a> </center>
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
